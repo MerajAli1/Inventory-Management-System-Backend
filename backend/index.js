@@ -13,6 +13,8 @@ const dashboardRoute = require("./routes/dashboardRoutes");
 const app = express();
 const path = require("path");
 
+connectDB();
+
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());
