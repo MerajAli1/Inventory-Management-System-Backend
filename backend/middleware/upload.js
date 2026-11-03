@@ -22,7 +22,7 @@ function fileFilter(req, file, cb) {
     file.mimetype === "image/jpeg"
   ) {
     cb(null, true); // Accept file
-  } else {w
+  } else {
     cb(null, false); // Reject file
   }
 }
